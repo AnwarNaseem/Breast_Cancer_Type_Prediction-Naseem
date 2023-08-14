@@ -1,16 +1,25 @@
-Objective:
+# BREAST CANCER TYPE PREDICTION
+
+## Machine Learning Task:
+To build a machine learning model to predict whether the cancer type is Malignant or Benign.
+
+
+## Objective:
 Implementing a microservice using the Python Flask framework on an Ubuntu virtual
 machine to serve a machine learning prediction model.
+
 
 To create a Docker image containing everything needed to run the application: the
 application code, libraries, tools, dependencies, and other files and to use the image to run
 the application in containers.
 
-Context:
+
+## Context:
 For this case study we are going to work with the following dataset:
 https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)
 
-Attribute Information:
+
+## Attribute Information:
 ● ID number
 ● Diagnosis (M = malignant, B = benign)
 Ten real-valued features are computed for each cell nucleus:
@@ -25,14 +34,13 @@ Ten real-valued features are computed for each cell nucleus:
 ● symmetry
 ● fractal dimension ("coastline approximation" - 1)
 
-Machine Learning Task:
-To build a machine learning model to predict whether the cancer type is Malignant or Benign.
 
-Clone the GitHub repository:
+## Clone the GitHub repository:
 ● From Visual Studio code clone the below github repository.
 https://github.com/Vikas098766/Microservices.git
 
-# Python Flask ML Application as a microservice on an Ubuntu virtual machine.
+
+## Python Flask ML Application as a microservice on an Ubuntu virtual machine.
 1. First we must host a Ubuntu virtual machine using the Oracle VM Virtual box.
 2. Then we must create the endpoints for subsequently interacting with the client via the
 HTTP protocol, train and save a machine learning model, and wrap it in a Flask web
