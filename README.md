@@ -60,3 +60,29 @@ HTTP protocol, train and save a machine learning model, and wrap it in a Flask w
 application.
 3. Finally we will run and test our application using some example calls
 
+### Steps to be performed:
+
+1. Host a Ubuntu Virtual Machine using Oracle VM Virtual Box.
+   
+3. Set up Visual Studio code on Ubuntu VM.
+   
+5. Set up Python.
+   
+7. Clone this Github repository https://github.com/Vikas098766/Microservices.git
+   
+9. Create a Virtual Environment.
+    
+11. Install the dependencies from requirements.txt file.
+    
+13. Train and save the model.
+    
+15. Test the Flask web application.
+    
+17. Test the application and make predictions using the example calls available in the folder
+/tests.
+
+10. Create a docker image containing everything needed to run the application.
+
+11. Run the containerized application as a prediction service and test it locally by passing
+some example calls and get the prediction.
+
