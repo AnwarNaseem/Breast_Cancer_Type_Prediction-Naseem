@@ -10,12 +10,14 @@ machine to serve a machine learning prediction model.
 
 
 To create a Docker image containing everything needed to run the application: the
-application code, libraries, tools, dependencies, and other files and to use the image to run
+application code, libraries, tools, dependencies, and other files, and to use the image to run
 the application in containers.
 
 
 ## Context:
+
 For this case study we are going to work with the following dataset:
+
 https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)
 
 
